@@ -1,6 +1,6 @@
 class handlers {
   home(req, res) {
-    res.render("home");
+    res.render("home", { data: 323 });
   }
 }
 const handle = new handlers();
